@@ -11,14 +11,14 @@ Topics:
 
 ### Task 1: Project Set-up
 
-* [ ] **Fork** this repository, then clone your fork.
-* [ ] **NOTE** You have 2 servers that you will be running here so read these instructions carefully.
+* [x] **Fork** this repository, then clone your fork.
+* [x] **NOTE** You have 2 servers that you will be running here so read these instructions carefully.
 * [ ] **In the root of this directory**: Run `npm install` to download dependencies.
-* [ ] Run the server using `npm start` or `node server.js`. (Don't worry too much about this process, you'll get used to doing this and it will be explained more in the future).
-* [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
-* [ ] Still inside the `client` folder run `npm start` to run the client application.
+* [x] Run the server using `npm start` or `node server.js`. (Don't worry too much about this process, you'll get used to doing this and it will be explained more in the future).
+* [x] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
+* [x] Still inside the `client` folder run `npm start` to run the client application.
 
-* [ ] Once your application is up and running on the client, you should see a browser window that looks like this at `localhost:3000` (although the port number will be different if 3000 is being used).
+* [x] Once your application is up and running on the client, you should see a browser window that looks like this at `localhost:3000` (although the port number will be different if 3000 is being used).
 
   ![Movies Home](https://tk-assets.lambdaschool.com/c6b3e8d8-afe0-4663-82da-60b1de76f649_movies-home.png)
 
@@ -26,17 +26,17 @@ Topics:
 
 #### Set up Routes
 
-* [ ] Wrap your app with the router.
+* [x] Wrap your app with the router.
 * [ ] Inside your App file add two routes.
-  * [ ] one route for `/` that loads the `MovieList` component. **This component will need the movies injected into it via props**.
-  * [ ] one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
+  * [x] one route for `/` that loads the `MovieList` component. **This component will need the movies injected into it via props**.
+  * [x] one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
 
 #### Add Functionality
 
-* [ ] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
-* [ ] You will need to modify line 8 of `Movie.js` to get the id of the selected movie from the URL.
-* [ ] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
-* [ ] You should now be able to navigate back and forth between the list of movies and the detailed view of a single movie.
+* [x] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
+* [x] You will need to modify line 8 of `Movie.js` to get the id of the selected movie from the URL.
+* [x] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
+* [x] You should now be able to navigate back and forth between the list of movies and the detailed view of a single movie.
 
 ### Task 2b: Exit Ticket
 
@@ -68,5 +68,5 @@ If you have completed Parts 1 & 2 feel free to move on to these stretch goals.
 
 ## Submission Format
 
-* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
-* [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR
+* [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request** (https://github.com/kc0buk/React-Router-Movies/pull/1)
+* [x] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR
